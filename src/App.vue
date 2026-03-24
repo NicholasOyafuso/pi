@@ -24,9 +24,7 @@
     <section class="hero">
       <div class="texto-hero">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint  occaecat cupidatat non proident, sunt in culpa qui officia deserunt  mollit anim id est laborum.
         </p>
       </div>
     </section>
@@ -53,8 +51,7 @@
       <h2>REGISTRY</h2>
 
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Sed do eiusmod tempor incididunt ut labore et dolore.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco <br> laboris nisi ut aliquip ex ea  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate  velit esse cillum dolore eu fugiat nulla pariatur. <br> Excepteur sint  occaecat cupidatat non proident, sunt in culpa qui officia deserunt  mollit anim id est laborum.
       </p>
 
       <button>GO TO REGISTRY</button>
@@ -114,7 +111,9 @@ nav a {
 }
 
 .titulo h1 {
-  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom:30px;
+  font-size: 70px;
 }
 
 .hero {
@@ -126,9 +125,9 @@ nav a {
 }
 
 .texto-hero {
-  width: 500px;
+  width: 1500px;
+  font-size:2rem;
   text-align: center;
-  background: rgba(255, 255, 255, 0.7);
   padding: 20px;
 }
 
@@ -141,8 +140,8 @@ nav a {
 }
 
 .cartao {
-  width: 250px;
-  height: 350px;
+  width: 300px;
+  height: 500px;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -152,7 +151,7 @@ nav a {
   font-size: 22px;
   font-weight: bold;
   text-shadow: 2px 2px 10px black;
-}
+  text-decoration: underline;}
 
 .historia {
   background-image: url("@/assets/image1.png");
@@ -173,16 +172,25 @@ nav a {
 .secao-lista {
   background: url("@/assets/image9.png") center/cover no-repeat;
   text-align: center;
-  padding: 100px 20px;
+  padding: 200px 20px;
   color: white;
 }
+.secao-lista p {
+  font-size:25px;
+}
+.secao-lista h2 {
+  font-size:67px;
+  margin-bottom:20px;
+}
+
 
 .secao-lista button {
   margin-top: 20px;
-  padding: 10px 40px;
+  padding: 15px 100px;
   border: none;
   background: #6b4c7b;
   color: white;
+  font-size:20px;
   border-radius: 20px;
 }
 
